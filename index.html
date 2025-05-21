@@ -1,45 +1,50 @@
 <!DOCTYPE html>
 <html lang="nl">
-
 <head>
-  <meta content="text/html; charset=utf-8" http-equiv="content-type">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <!--<title>Informatiemodel Water Basis</title>-->
-  <!--De respec config komt van logius. Hier is eigen aanpassing op gedaan in aquo-config.js. Deze laatste wordt met config.js ingevuld. 
-  Dus je hoeft per versie van een catalogus alleen de config.js aan te passen  -->
-  <script src="./js/config.js" class="remove"></script> <!--In config.js zet je een aantal config-parameters-->
-  <script src="./js/aquo-config.js" class="remove"></script>
-  <script src="https://gitdocumentatie.logius.nl/publicatie/respec/builds/respec-nlgov.js" class="remove" async></script>
-  <script class="remove"> respecConfig = {...organisationConfig, ...respecConfig}</script>
-    <script>document.title = respecConfig.title</script>
-  <!--<script src="https://data.aquo.nl/informatiemodel/publicatie/respec.js" class="remove"></script>-->
-  
-  <link rel="stylesheet" type="text/css" href="https://data.aquo.nl/informatiemodel/publicatie/localstyle.css" />
-  <link rel="shortcut icon" href="https://cuatro.sim-cdn.nl/ihw/uploads/2023-08/favicon.ico?cb=ccEOZz5r"/>
-    
- <!-- De volgende regel zorgt ervoor dat plaatjes uit Imvertor niet geschaald
-       worden, zodat de imagemap die op deze plaatjes zit werkt. -->
-  <style>div.imageinfo img {max-width: none;}</style>
+  <meta charset="UTF-8" />
+  <title>Modelleerproces</title>
+  <script type="module">
+    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+    mermaid.initialize({ startOnLoad: true });
+  </script>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 2rem;
+      background: #f8f9fa;
+    }
+    h1 {
+      text-align: center;
+    }
+    .mermaid {
+      background: white;
+      padding: 1rem;
+      border-radius: 12px;
+      box-shadow: 0 0 8px rgba(0,0,0,0.1);
+    }
+  </style>
 </head>
-
 <body>
-  <section id="abstract" data-include-format="markdown" data-include="samenvatting.md"></section>
-  <section id="sotd"><p></p></section><!-- Wordt automatisch gevuld -->
+  <h1>Modelleerproces met Artefacten</h1>
 
-  <!-- TODO: voeg hier je eigen hoofdstukken toe 
-  <section data-include-format="markdown" data-include="algemeen/inleiding_Aquo.md" class="informative"><h2>Inleiding informatiemodel Water</h2></section>
-  <section data-include-format="markdown" data-include="algemeen/inleiding_IMWA-basis.md" class="informative"><h2>Inleiding IMWA Basis</h2></section>
-  <section data-include-format="markdown" data-include="algemeen/uitleg_IM.md" class="informative"><h2>Uitleg (UML) informatiemodel</h2></section>-->
-    <!--<section data-include-format="markdown" data-include="mermaid.md"></section>-->
+  <div class="mermaid">
+flowchart TD
+    A["[Conceptueel model](conceptueel-model.md)"] --> B["[Valideren](valideren.md)"]
+    B --> C["[(MIM)](mim.md)"]
+    C --> D{"[Keuze](keuze.md)"}
 
-  <!-- Als je document een door imvertor gegenereerde catalogus bevat kan je die -->
-  <!-- opnemen door de volgende regel uit commentaarhaakjes te halen en aan te passen -->
-  <div id="catalogus" data-include="data/Aquo-doc-cat.respec.html" data-include-replace=true></div>
+    D --> E["[Publiceren](publiceren.md)"]
+    E --> F["[(Respec catalogus)](respec-catalogus.md)"]
 
-  <!-- De volgende paragrafen worden automatisch gevuld. Je kunt ze uitzetten -->
-  <!--<section id='conformance'></section>--> <!-- Gegeneerd hoofdstuk over conformiteit-->
-  <!--<section id='tof'></section>--><!-- Lijst van figuren -->
-  <!--<section id="index"></section>--><!-- Lijst van begrippen -->
+    D --> G["[Doorontwikkelen](doorontwikkelen.md)"]
+    G --> H["[(Logisch model)](logisch-model.md)"]
+    H --> I1["[(XSD)](xsd.md)"]
+    H --> I2["[(Uitwisselvraag)](uitwisselvraag.md)"]
+    I2 --> J["[(API-specificaties)](api-specificaties.md)"]
+
+    D --> K["[Genereren](genereren.md)"]
+    K --> L["[(Ontologie)](ontologie.md)"]
+    L --> M["[(Aquo triple-store)](aquo-triple-store.md)"]
+  </div>
 </body>
-
 </html>
