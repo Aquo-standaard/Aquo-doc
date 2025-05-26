@@ -46,28 +46,28 @@
   <div class="mermaid">
 flowchart TD
     %% Processtappen (blauw)
-    B [Valideren]
-    click B "algemeen/valideren" "_self"
-    E [Publiceren]
-    click E "algemeen/publiceren" "_blank"
-    G["[Doorontwikkelen](/algemeen/doorontwikkelen.md)"]
-    K["[Genereren](/algemeen/genereren.md)"]
+    
+    B[Valideren]
+    click B "https://raw.githubusercontent.com/Aquo-standaard/Aquo-doc/refs/heads/main/algemeen/valideren.md" "_self"
+    E[Publiceren]
+    G[Doorontwikkelen]
+    K[Genereren]
 
     %% Artefacten (rechthoek met afgeronde hoeken)
-    A["[Conceptueel model](/algemeen/conceptueel-model.md)"]
-    C["[MIM](/algemeen/mim.md)"]
-    F["[Respec catalogus](/algemeen/respec-catalogus.md)"]
-    H["[Logisch model](/algemeen/logisch-model.md)"]
-    I1["[XSD](/algemeen/xsd.md)"]
-    I3["[Voorbeeldbericht](/algemeen/voorbeeldbericht.md)"]
-    J["[API-specificaties](/algemeen/api-specificaties.md)"]
-    J1["[JSON-schema](/algemeen/json-schema.md)"]
-    L["[Ontologie](/algemeen/ontologie.md)"]
-    M["[Aquo triple-store](/algemeen/aquo-triple-store.md)"]
+    A(Conceptueel model)
+    C(MIM)
+    F(Respec catalogus)
+    H(Logisch model)
+    I1(XSD)
+    I3(Voorbeeldbericht)
+    J(API-specificaties)
+    J1(JSON-schema)
+    L(Ontologie)
+    M(Aquo triple-store)
 
     %% Keuzemomenten (ruitvorm)
-    D{"[Keuze](/algemeen/keuze.md)"}
-    I2{"[Uitwisselvraag](/algemeen/uitwisselvraag.md)"}
+    D{Keuze}
+    I2{Uitwisselvraag}
 
     %% Relaties
     A --> B
@@ -90,25 +90,25 @@ flowchart TD
     L --> M
 
     %% Kleurstijlen
-    style B fill:#cce5ff,stroke:#2f74c0,stroke-width:1px,color:#000000
-    style E fill:#cce5ff,stroke:#2f74c0,stroke-width:1px,color:#000000
-    style G fill:#cce5ff,stroke:#2f74c0,stroke-width:1px,color:#000000
-    style K fill:#cce5ff,stroke:#2f74c0,stroke-width:1px,color:#000000
+    
+    style B fill:#cce5ff,stroke:#2f74c0,stroke-width:1px
+    style E fill:#cce5ff,stroke:#2f74c0,stroke-width:1px
+    style G fill:#cce5ff,stroke:#2f74c0,stroke-width:1px
+    style K fill:#cce5ff,stroke:#2f74c0,stroke-width:1px
 
-    style A fill:#d4edda,stroke:#4caf50,stroke-width:1px,color:#000000
-    style C fill:#d4edda,stroke:#4caf50,stroke-width:1px,color:#000000
-    style F fill:#d4edda,stroke:#4caf50,stroke-width:1px,color:#000000
-    style H fill:#d4edda,stroke:#4caf50,stroke-width:1px,color:#000000
-    style I1 fill:#d4edda,stroke:#4caf50,stroke-width:1px,color:#000000
-    style J fill:#d4edda,stroke:#4caf50,stroke-width:1px,color:#000000
-    style L fill:#d4edda,stroke:#4caf50,stroke-width:1px,color:#000000
-    style M fill:#d4edda,stroke:#4caf50,stroke-width:1px,color:#000000
-    style I3 fill:#d4edda,stroke:#4caf50,stroke-width:1px,color:#000000
-    style J1 fill:#d4edda,stroke:#4caf50,stroke-width:1px,color:#000000
+    style A fill:#d4edda,stroke:#4caf50,stroke-width:1px
+    style C fill:#d4edda,stroke:#4caf50,stroke-width:1px
+    style F fill:#d4edda,stroke:#4caf50,stroke-width:1px
+    style H fill:#d4edda,stroke:#4caf50,stroke-width:1px
+    style I1 fill:#d4edda,stroke:#4caf50,stroke-width:1px
+    style J fill:#d4edda,stroke:#4caf50,stroke-width:1px
+    style L fill:#d4edda,stroke:#4caf50,stroke-width:1px
+    style M fill:#d4edda,stroke:#4caf50,stroke-width:1px
+    style I3 fill:#d4edda,stroke:#4caf50,stroke-width:1px
+    style J1 fill:#d4edda,stroke:#4caf50,stroke-width:1px
 
-    style D fill:#fff3cd,stroke:#e0a800,stroke-width:1px,color:#000000
-    style I2 fill:#fff3cd,stroke:#e0a800,stroke-width:1px,color:#000000
-
+    style D fill:#fff3cd,stroke:#e0a800,stroke-width:1px
+    style I2 fill:#fff3cd,stroke:#e0a800,stroke-width:1px
   </div>
   <!-- Als je document een door imvertor gegenereerde catalogus bevat kan je die -->
   <!-- opnemen door de volgende regel uit commentaarhaakjes te halen en aan te passen -->
