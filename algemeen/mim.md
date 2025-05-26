@@ -7,13 +7,14 @@ title: MIM
 Deze pagina beschrijft het onderdeel **Mim** binnen het modelleerproces.
 
 ## Doel
-*(Vul hier het doel van deze stap of component in.)*
+De Aquo-modellen worden conform MIM gemodelleerd 
 
 ## Betrokkenen
-*(Wie is verantwoordelijk of betrokken?)*
+Analisten/modelleurs
 
 ## Activiteiten / Eigenschappen
-*(Wat gebeurt hier of wat stelt dit object voor?)*
-
+De huidige modellen worden conform MIM1.2 gemodelleerd. Documentatie is [hier](https://docs.geostandaarden.nl/mim/mim/) te vinden.
+Het is relevant de ontwikkelingen van MIM te blijven volgen. Bijv op: [https://www.mim-community.nl/](https://www.mim-community.nl/)
+En [https://github.com/Geonovum/MIM-Werkomgeving](https://github.com/Geonovum/MIM-Werkomgeving)
 ## Issues of aandachtspunten
-*(Wat zijn bekende knelpunten of optimalisatiemogelijkheden?)*
+De validatie tegen MIM levert snel fouten en waarschuwingen op. De fouten moeten voor de verdere productontwikkeling opgelost zijn. En de warnings zoveel mogelijk weggewerkt.

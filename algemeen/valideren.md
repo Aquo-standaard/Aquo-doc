@@ -7,13 +7,13 @@ title: Valideren
 Deze pagina beschrijft het onderdeel **Valideren** binnen het modelleerproces.
 
 ## Doel
-*(Vul hier het doel van deze stap of component in.)*
+Ieder conceptueel model in de Aquo is volgens MIM gemodelleerd. En om te checken of we conform MIM werken is er tooling ontwikkeld om daarbij te helpen.
 
 ## Betrokkenen
-*(Wie is verantwoordelijk of betrokken?)*
+Analisten/modelleurs
 
 ## Activiteiten / Eigenschappen
-*(Wat gebeurt hier of wat stelt dit object voor?)*
+Het valideren gebeurt automatisch bij het aanbieden van een model aan imvertor. 
 
 ## Issues of aandachtspunten
 *(Wat zijn bekende knelpunten of optimalisatiemogelijkheden?)*
