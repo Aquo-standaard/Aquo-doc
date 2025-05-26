@@ -1,3 +1,7 @@
+---
+layout: default
+title: Ontologie
+---
 # Ontologie
 
 Deze pagina beschrijft het onderdeel **Ontologie** binnen het modelleerproces.

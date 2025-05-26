@@ -1,3 +1,7 @@
+---
+layout: default
+title: Genereren
+---
 # Genereren
 
 Deze pagina beschrijft het onderdeel **Genereren** binnen het modelleerproces.

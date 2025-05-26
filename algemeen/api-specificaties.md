@@ -1,3 +1,8 @@
+---
+layout: default
+title: Api Specificaties
+---
+
 # Api Specificaties
 
 Deze pagina beschrijft het onderdeel **Api Specificaties** binnen het modelleerproces.

@@ -1,3 +1,7 @@
+---
+layout: default
+title: Uitwisselvraag
+---
 # Uitwisselvraag
 
 Deze pagina beschrijft het onderdeel **Uitwisselvraag** binnen het modelleerproces.

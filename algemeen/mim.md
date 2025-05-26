@@ -1,4 +1,8 @@
-# Mim
+---
+layout: default
+title: MIM
+---
+# MIM
 
 Deze pagina beschrijft het onderdeel **Mim** binnen het modelleerproces.
 

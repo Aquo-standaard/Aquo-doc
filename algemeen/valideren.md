@@ -1,3 +1,7 @@
+---
+layout: default
+title: Valideren
+---
 # Valideren
 
 Deze pagina beschrijft het onderdeel **Valideren** binnen het modelleerproces.

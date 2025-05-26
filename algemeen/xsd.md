@@ -1,4 +1,8 @@
-# Xsd
+---
+layout: default
+title: XSD
+---
+# XSD
 
 Deze pagina beschrijft het onderdeel **Xsd** binnen het modelleerproces.
 

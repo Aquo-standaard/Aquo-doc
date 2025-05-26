@@ -1,3 +1,7 @@
+---
+layout: default
+title: Publiceren
+---
 # Publiceren
 
 Deze pagina beschrijft het onderdeel **Publiceren** binnen het modelleerproces.

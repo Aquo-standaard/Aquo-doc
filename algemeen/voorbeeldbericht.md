@@ -1,3 +1,7 @@
+---
+layout: default
+title: Voorbeeldbericht
+---
 # Voorbeeldbericht
 
 Deze pagina beschrijft het onderdeel **Voorbeeldbericht** binnen het modelleerproces.

@@ -1,3 +1,7 @@
+---
+layout: default
+title: Logisch model
+---
 # Logisch Model
 
 Deze pagina beschrijft het onderdeel **Logisch Model** binnen het modelleerproces.

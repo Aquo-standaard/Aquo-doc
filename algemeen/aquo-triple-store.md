@@ -1,3 +1,7 @@
+---
+layout: default
+title: Aquo triplestore
+---
 # Aquo Triple Store
 
 Deze pagina beschrijft het onderdeel **Aquo Triple Store** binnen het modelleerproces.

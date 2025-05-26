@@ -1,3 +1,7 @@
+---
+layout: default
+title: JSON schema
+---
 # Json Schema
 
 Deze pagina beschrijft het onderdeel **Json Schema** binnen het modelleerproces.

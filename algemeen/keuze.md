@@ -1,3 +1,7 @@
+---
+layout: default
+title: Keuze
+---
 # Keuze
 
 Deze pagina beschrijft het onderdeel **Keuze** binnen het modelleerproces.

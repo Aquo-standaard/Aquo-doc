@@ -1,3 +1,7 @@
+---
+layout: default
+title: Conceptueel model
+---
 # Conceptueel Model
 
 Deze pagina beschrijft het onderdeel **Conceptueel Model** binnen het modelleerproces.
